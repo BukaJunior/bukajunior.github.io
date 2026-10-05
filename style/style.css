@@ -4,6 +4,12 @@ body{
 }
 header{
     /* height:100vh; */
+    background-image: url(../maquette/header-home2.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
 }
 .header__navbar{
     color: yellowgreen;
