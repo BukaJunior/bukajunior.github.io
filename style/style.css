@@ -1,0 +1,15 @@
+body{
+    color: black;
+    font-family: "Manrope", sans-serif;
+}
+header{
+    /* height:100vh; */
+}
+.header__navbar{
+    color: yellowgreen;
+    font-weight: bold;
+}
+.navbar__logo{
+    width: 4rem;
+}
+

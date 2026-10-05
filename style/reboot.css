@@ -1,0 +1,87 @@
+/* ================================
+   RESET CSS
+================================ */
+
+/* 1. Box model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2. Supprime les marges par défaut */
+* {
+    margin: 0;
+}
+
+/* 3. Hauteur minimale de la page */
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 4. Images et médias responsives */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* 5. Les formulaires utilisent la même police */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* 6. Évite que les longs textes cassent la mise en page */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* 7. Les liens */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* 8. Les listes */
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+/* 9. Boutons */
+button {
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+/* 10. Réduction des animations si l'utilisateur le demande */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
